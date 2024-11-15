@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+.bigText{
+    background-color: red;
+    height: 150px;
+    width: 33%;
+    justify-self: center;
+    padding: 5px;
+    align-content: center;
+    font-size: 2em;
+}
+
+.addToList{
+    background-color: blueviolet;
+    height: 30px;
+    width: 33%;
+    justify-self: center;
+    padding: 5px;
+    align-content: top;
+}
+
+.listItself{
+    background-color: yellowgreen;
+    height: auto;
+    width: 33%;
+    justify-self: center;
+    padding: 5px;
+    align-content: center;
+}
