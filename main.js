@@ -28,8 +28,15 @@ addItem.addEventListener(`click`, function(){
         deleteItem.textContent = `Delete!`
 
             deleteItem.addEventListener(`click`, function(){
-                console.log(`Delete try`);
-                createdItem.remove()
+                const userResponse = prompt(`Do you want to delete this?`);
+                userResponse;
+                if(userResponse === `yes`){
+                    createdItem.remove()
+                }else if(userResponse === `no`){
+                    alert(`Ok, it will not be deleted!`)
+                }else {
+                    alert(`Invalid input!`);
+                }
             })
     }else {
         console.log(`You forgot to input anything`);

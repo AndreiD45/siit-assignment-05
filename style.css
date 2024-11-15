@@ -3,7 +3,7 @@
 }
 
 .bigText{
-    background-color: red;
+    /* background-color: red; */
     height: 150px;
     width: 33%;
     justify-self: center;
@@ -13,7 +13,7 @@
 }
 
 .addToList{
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     height: 30px;
     width: 33%;
     justify-self: center;
@@ -22,7 +22,7 @@
 }
 
 .listItself{
-    background-color: yellowgreen;
+    /* background-color: yellowgreen; */
     height: auto;
     width: 33%;
     justify-self: center;
